@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46661184469",
+    "firebase_url": "https://madd-544fd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "madd-544fd",
+    "storage_bucket": "madd-544fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46661184469:android:a1dce81b3597b6cfceeb5c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46661184469-tsbc4vaoap2c5a9phlm0hn686vaq03hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoXlRs6Ahi7N6gxL3f1v6BsFOtb3NQpzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46661184469-tsbc4vaoap2c5a9phlm0hn686vaq03hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

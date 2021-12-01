@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logomodified"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/bigshot_one"
+        android:text="Heart of Hope"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <Button
+        android:id="@+id/btnevent"
+        android:layout_width="167dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="Events"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnproject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnproject" />
+
+    <Button
+        android:id="@+id/btnproject"
+        android:layout_width="163dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="@string/Projects"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/btnOrg"
+        android:layout_width="167dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="Organizations"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnproject"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <Button
+        android:id="@+id/btnEmp"
+        android:layout_width="167dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="Employees"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOrg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnOrg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
